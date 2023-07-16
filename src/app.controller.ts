@@ -25,4 +25,8 @@ export class AppController {
               ]
         };
   }
+  @Get('hello')
+  xyz(){
+    return this.appService.getHello();
+  }
 }
